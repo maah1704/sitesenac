@@ -1,0 +1,35 @@
+body{background: #cba8ff;
+background: linear-gradient(90deg, rgba(203, 168, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(151, 164, 201, 1) 100%);
+
+  }
+
+ form{
+  background: #fff;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 70px;
+  width: 150px;
+  margin-left: 70px;
+  margin-top: 100px;
+  /*arendondar as bordas*/
+  border-radius: 10px;
+  } 
+
+  form input:{
+    border:1px solid rgb(204, 145, 204);
+    padding: 7px;
+    border-radius: 5px;
+    outline:none;
+
+  
+    
+  }
+form input:hover{
+  border: 1px solid rgb(rgb(202, 115, 243), rgb(59, 24, 73), rgb(255, 255, 255))
+}
+
+form label{
+  color:rgb(211, 136, 211)
+}
